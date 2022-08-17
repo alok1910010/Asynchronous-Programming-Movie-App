@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE APP</title>
+
+   
+   <style>
+        
+       #maincontainer
+       {
+           width:60%;
+           position:relative;
+           margin:auto;
+           box-shadow: rgba(97, 97, 231, 0.2) 0px 7px 29px 0px;
+           background-color:rgb(56, 56, 59);
+       }
+       #maincontainer>form
+       {
+           width:40%;
+           margin:auto;
+           padding:20px;
+           display:flex;
+           flex-direction:column;
+       }
+       #maincontainer>form>input
+       {
+           padding:10px;
+           margin:10px;
+       }
+       #maincontainer>div
+       {
+           width:50%;
+           margin:auto;
+           padding:20px;
+           position:relative;
+       }
+       #maincontainer>div>div
+       {
+           width:100%;
+           padding:10px;
+       }
+       #maincontainer>div>div img
+       {
+           width:400px;
+           height:500px;
+       }
+       #tag{
+           position:absolute;
+           top:60%;
+           left:50%;
+           margin-top:-50px;
+           width:400px;
+           color:white;
+            font-weight:bold;
+            font-family:arial;
+            font-size:28px;
+            background-color:rgb(247, 7, 79);
+            transform: translate(-54%, -20%);
+       }
+    </style>
+
+</head>
+
+<body>
+    <div id="maincontainer">
+        <form action="">
+            <h2 style="text-align:center;color:teal">MOVIE APP</h2>
+            <input type="text" id="moviesearch" placeholder="Search the movie">
+            <input type="submit" value="search" onclick="searchthemovie()">
+        </form>
+        <div id="conatiner1">
+            
+        </div>
+    </div>
+</body>
+
+<script src="index.js">
+    
+</script>
+</html>
